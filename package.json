@@ -1,0 +1,17 @@
+{
+  "name": "test-es6",
+  "private": true,
+  "devDependencies": {
+    "babelify": "6.4.x",
+    "browserify": "12.0.x",
+    "gulp": "3.9.x",
+    "gulp-notify": "2.2.x",
+    "gulp-util": "3.0.x",
+    "lodash": "3.10.x",
+    "merge-stream": "1.0.x",
+    "pretty-hrtime": "1.0.x",
+    "require-dir": "0.3.x",
+    "vinyl-source-stream": "1.1.x",
+    "watchify": "3.6.x"
+  }
+}
