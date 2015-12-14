@@ -2,8 +2,6 @@
 
 'use strict';
 
-const arr = [5, 6, 13, 1, 18, 23];
-
 function func1() {
     let self = this;
 
@@ -17,12 +15,9 @@ func1();
 function func2() {
     let self = this;
 
-    setTimeout( () = > {
+    setTimeout( () => {
         console.log( self === this );
-},
-    1000
-)
-    ;
+    }, 1000 );
 }
 
 func2();

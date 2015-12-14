@@ -2,9 +2,7 @@
 
 'use strict';
 
-const nameLength4 = name =
->
-name.length === 4;
+const nameLength4 = name => name.length === 4;
 const names = ['Mike', 'Kurt', 'Corey'];
 
 const _ = require( 'lodash' );

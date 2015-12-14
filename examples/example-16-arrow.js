@@ -24,16 +24,10 @@ const val2 = arr
 
 console.log( 'Functional:', val2 );
 
-const val3 =                      arr
-                 .filter( val = > val < 10
-)
-.
-map( val = > val * 2
-)
-.
-reduce( ( val1, val2 ) = > val1 + val2
-)
-;
+const val3 = arr
+    .filter( val => val < 10 )
+    .map( val => val * 2 )
+    .reduce( ( val1, val2 ) => val1 + val2 );
 
 console.log( 'Functional (Arrow):', val3 );
 
